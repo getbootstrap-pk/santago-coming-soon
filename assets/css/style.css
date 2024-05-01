@@ -1,0 +1,72 @@
+/***************default settings********************/
+body{font-family: 'Roboto', sans-serif;text-rendering: optimizeLegibility;}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{font-family: 'Roboto', sans-serif;font-weight:100;}
+p{ color:#888;}
+a{color:#00b09c;}
+a:focus{ outline:none;}
+
+/***************theme btns********************/
+.main-btn{ background:#c70408; border-color:#c70408; color:#fff;}
+.main-btn:hover{ background:#a60104;color:#fff;}
+
+/***************fix cantainer*******************/
+.color-overlay {background: rgba(199, 4, 8, 0.6); position:relative; z-index:0;}
+.color-overlay-bottom {background: rgba(25, 63, 85, 0.9); padding:50px 0px;}
+
+/***************Parallax settings********************/
+.bgParallax {color:#FFF;margin: 0 auto;text-align:center;width: 100%;position: relative;min-height: 100%;background-position: 50% 0;
+background-repeat: repeat;background-attachment: fixed;}
+
+/***************forms inputs********************/
+.form-control{ box-shadow:none; border-color:#ddd; height:49px;}
+.form-control:focus{ box-shadow:none; border-color:#103042;}
+.form-control-feedback{ line-height:50px;}
+.help-block{ text-align:left;}
+
+/***************Back to top btn********************/
+.back-to-top {position: fixed; border-radius:4px;bottom: 15px;right: 10px;text-decoration: none;color: #fff;background-color:#c70408;font-size: 18px;padding:0.25em 0.5em;display: none;}
+.back-to-top:hover {background:#a60104;color:#fff;}
+
+/***************banner********************/
+h1.heading{margin:0px;font-family: 'Lobster', cursive; font-weight:400; font-size:42px;}
+h2.heading{margin:0px;font-family: 'Lobster', cursive; font-weight:400; font-size:42px;}
+.logo{ padding-top:15px; display:block;}
+
+.sectionIcon {padding-right: 0px !important; z-index:99;font-size: 36px;display: block;text-align: center;position: absolute;margin: auto;left: 0;right: 0;top: -35px;width: 75px;height: 75px;line-height: 75px;border-radius: 50%;vertical-align: middle;}
+.sectionIcon {color: #ccc;background: #fff;}
+.timecounter{ margin-top:50px;}
+
+/******************section default**********************/
+section h2.heading{font-size:42px; color:#333333; line-height:36px; margin-bottom:5px;}
+section h3.helping-text{ font-size:20px; color:#888; margin:0px 0px 15px 0px;line-height:36px;}
+section p{ font-size:18px;color:#888;}
+section{float:left; width:100%; padding:0px 0px; text-align:center; position:relative;}
+
+
+
+/**************************subscribe*********************************/
+#subscribe{ float:left; width:100%;padding:50px 0px; background:#fff;}
+.subscribe{ margin-top:40px;}
+
+/**************************Parallax*********************************/
+#parallax{ padding:0px 0px;background-image: url(../images/background2.jpg);background-size:cover;}
+.bgParallax h2.heading{ color:#fff;margin-bottom:25px;}
+
+/**************************social icons*********************************/
+.social li a{ font-size:48px; color:#999;  height:55px; width:55px; display:block; }
+.social li a:hover{ color:#a60104;}
+
+@media (max-width: 768px) {
+}
+@media (max-width: 480px) {
+
+.bgParallax h2.heading{ font-size:20px;}
+.logo img{ height:160px; margin-bottom:10px;}
+.line-btn{ margin-bottom:15px;}
+.time_circles canvas{
+	width:100%;
+}
+}
+@media (max-width: 320px) {
+	.time_circles > div{ margin-left:9px !important;}
+}
